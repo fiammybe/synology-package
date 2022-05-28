@@ -1,0 +1,6 @@
+#!/bin/sh
+WEBSITE_ROOT="/var/services/web_packages/wordpress"
+
+chown -R WordPress:http "$WEBSITE_ROOT/*"
+
+exit 0
